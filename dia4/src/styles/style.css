@@ -2,6 +2,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    font-family: 'MiFuentePersonalizada', sans-serif;
+}
+
+@font-face {
+    font-family: 'MiFuentePersonalizada'; 
+    src: url('./src/fonts/AmazonEmber_Lt') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal; 
 }
 
 header {
@@ -103,7 +111,7 @@ a {
     font-size: 27px;
 }
 
-blue-divs {
+.blue-divs {
     background-color: #00A8E1;
     color: white;
     display: flex; 
@@ -206,4 +214,16 @@ blue-divs {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer p{
+    text-decoration: none;
+    color: rgb(171, 169, 169);
 }
