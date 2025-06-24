@@ -103,7 +103,7 @@ a {
     font-size: 27px;
 }
 
-.blue-divs {
+blue-divs {
     background-color: #00A8E1;
     color: white;
     display: flex; 
@@ -185,4 +185,25 @@ a {
     text-align: center;
     font-size: 32px;
     
+}
+
+#compatibles{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 70px;
+}
+
+#p4{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 37px;
+    text-align: center;
+}
+
+#devices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
