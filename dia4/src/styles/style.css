@@ -127,9 +127,9 @@ a {
 }
 
 #live {
-    width: 100%;
-    font-size: 45px; /* Asegúrate de que este tamaño sea aplicable */
-    text-align: center; /* Centra el texto dentro del contenedor */
+    
+    font-size: 45px; 
+    text-align: center; 
     
 }
 
@@ -137,5 +137,52 @@ a {
     width: 70%;
     text-align: center;
     font-size: 30px;
+    
+}
+
+#like {
+    font-size: 40px; 
+    text-align: center;
+}
+
+#movies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+#movies img {
+    width: 8rem;
+}
+
+#movies img:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+#p2 {
+    width: 80%;
+    text-align: center;
+    font-size: 32px;
+    
+}
+
+#cancel {
+    font-size: 40px; 
+}
+
+#cancelar {
+    width: 7%;
+}
+
+#p3 {
+    width: 80%;
+    text-align: center;
+    font-size: 32px;
     
 }
