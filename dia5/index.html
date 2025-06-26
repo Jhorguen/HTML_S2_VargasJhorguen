@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comprar Metrolinea</title>
-    <link rel="shortcut icon" href="https://www.metrolinea.gov.co/v3.0/sites/default/files/favicon.png" type="image/x-icon">
-</head>
-<body>
+    <link
+      rel="shortcut icon"
+      href="https://www.metrolinea.gov.co/v3.0/sites/default/files/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+  </head>
+  <body>
     <header>
-        <img src="./src/images/1200px-Metrolínea_logo.svg.png" alt="MetrolineaLinea">
+      <img
+        src="./src/images/1200px-Metrolínea_logo.svg.png"
+        alt="MetrolineaLinea"/>
+      <div id="navbar">
+        <a class="activo" href=""> Comprar Tarjeta </a>
+        <a href=""> Ver Saldo </a>
+        <img src="./src/images/Icon ionic-ios-search.png" alt="Search-icon" />
+        <img
+          src="./src/images/Icon feather-shopping-cart.png"
+          alt="Shopping-cart"/>
+      </div>
     </header>
-</body>
+    <div id="sidebar">
+        <img src="./src/images/Icon ionic-ios-arrow-up.png" alt="arrow-up" />
+        <p class="especial">Cantidad</p>
+        <div id="cantidades">
+            <span>04</span>
+            <p class="especial">05</p>
+            <span>06</span>
+        </div>
+        <p></p>
+        <img src="./src/images/Icon ionic-ios-arrow-down.png" alt="">
+    </div>
+    <div id="tarjeta">
+        <img src="./src/images/Metrolinea (2).png" alt="">
+    </div>
+  </body>
 </html>
