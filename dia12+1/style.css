@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sea{
+    margin-top: -6px;
+    animation: moveLeft 10s linear infinite; /* Animación infinita hacia la izquierda */
+}
+
+.sky{
+    animation: moveLeft 15s linear infinite; /* Animación infinita hacia la izquierda */
+}
+
+
+.bernie{
+    background-image: url("../dia12+1/images/bernie.png");
+    display: flex;
+    justify-content: center;
+    background-size:cover;
+    position: fixed;
+    top: 42.5%;
+    width: 9vi;
+    height: 12vi;
+}
+
+@keyframes moveLeft {
+    0% {
+        transform: translateX(0); /* Posición inicial */
+    }
+    100% {
+        transform: translateX(-100%); /* Mueve completamente hacia la izquierda */
+    }
+}
+
+
